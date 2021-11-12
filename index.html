@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
+
     <title>cv_LehkaTanya_Intellias</title>
 </head>
 <body>
@@ -47,7 +48,7 @@
             <!--abaut me main info-->
             <div class="info-container">
 
-                <h2 class="title_name">Front-End Developer</h2>
+                <h2 class="title_name">Junior Front-End Developer</h2>
                 <h1 class="name">Tetiana Lehka</h1>
             </div>
             <!--summary-->
@@ -90,14 +91,22 @@
                 </div>
                 <div>
                     <p class="title_name"><strong>My works</strong></p>
-                    <ul>
-                        <li class="li"><a href="https://rolling-scopes-school.github.io/start20201202-JSFE2021Q1/wildlife/">Landing page</a>    </li>
-                        <li class="li"><a href="https://rolling-scopes-school.github.io/start20201202-JSFE2021Q1/online-zoo/">Site</a>  </li>
-                        <li class="li"><a href="https://rolling-scopes-school.github.io/start20201202-JSFE2021Q1/photo-filter/">Photo-filter</a>  </li>
-
-                        
-                    </ul>
+                    <button id="showContent">Show My works</button>
+                    <button id="hideContent">Hide My works</button>
+            
+                    <div id="content" style="display:none;">
+                        <ul>
+                            <li>            <a href="https://rolling-scopes-school.github.io/start20201202-JSFE2021Q1/wildlife/">Landing page</a>
+                            </li>
+                            <li>    <a href="https://rolling-scopes-school.github.io/start20201202-JSFE2021Q1/online-zoo/">Site</a>
+                            </li>
+                            <li>    <a href="https://rolling-scopes-school.github.io/start20201202-JSFE2021Q1/photo-filter/">Photo-filter</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+    </body>
+</html>
 
                 <!--english-->
                 <div>
@@ -107,6 +116,6 @@
             </main>
         </div>
     </div>
-
+<script src="./script.js"></script>
 </body>
 </html>
