@@ -1,1 +1,1 @@
-# cv_LehkaTanya_intellias
+# cv_LehkaTanya_Intellias
